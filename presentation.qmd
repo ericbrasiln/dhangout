@@ -1,5 +1,5 @@
 ---
-title: "HemDig(pt)"
+title: "![HEMDIG(pt)](logo.png)"
 subtitle: "A Framework for Collecting, Organizing, and Processing Digitized Newspaper Pages in Portuguese"
 author: Eric Brasil
 date: "3 June 2024"
@@ -7,29 +7,33 @@ format:
   revealjs: 
     theme: white
     slide-number: true
+    incremental: true 
     chalkboard: 
       buttons: true
     preview-links: auto
     logo: logo.png
     #css: styles.css
-    footer: <https://ericbrasiln.github.io/hemdig-framework/>
-resources:
-  - demo.pdf
+    footer: "<a href=https://ericbrasiln.github.io/>Eric Brasil</a> | <a href=https://ericbrasiln.github.io/hemdig-framework/>HEMDIG(pt) Framework</a> | <a href=https://ericbrasiln.github.io/contact/>Get in touch!</a>"
 ---
-## Introduction
+## Introduction {.center}
 
-- **Title:** HemDig(pt): Methods, tools and Portuguese Newspaper Digital libraries.
 - **Objective:** To present a framework for the collection, organization, and processing of digitized newspaper pages in Portuguese.
 - **Research Importance:** Digitized newspapers are valuable historical sources that need efficient handling for research purposes.
 
+::: {.notes}
+- **Objective:** Present the HemDig(pt) framework for handling digitized newspapers.
+- **Research Importance:** Historical newspapers are rich sources of information, but handling them efficiently is a challenge.
+- **Audience:** Researchers, historians, archivists, and anyone interested in historical newspapers. Special focus on Portuguese-language newspapers.
+:::
+
 ---
 
-## Motivation
+## Motivation {.center}
 
-- **Historical Newspapers**
-- **Challenges**
-- **Current Gap**
-- **Objective**
+- Historical Newspapers
+- Challenges
+- Current Gap
+- Objective
 
 ::: {.notes}
 - **Historical Newspapers:** Rich sources of historical information.
@@ -40,27 +44,45 @@ resources:
 
 ---
 
-## Research Background: History, Versioning, and Repository
+## Research Background: History, Versioning, and Repository {.center}
 
-### **History:**
-### **Versioning:**
-### **Repository:**
-### **License:** Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0).
+- History
+- Versioning
+- Repository
+- License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br).
+
+::: {.notes}
+- **History:** The HemDig(pt) framework was developed to address the challenges of handling digitized newspapers.
+- **Versioning:** The framework is continuously updated to incorporate new tools and methodologies. I use Git for version control.
+- **Repository:** The framework is hosted on GitHub and published as a JupyterBook.
+- **License:** The framework is available under a Creative Commons license for non-commercial use.
+:::
+---
+
+## HemDig(pt) Framework Phases {.center}
+
+1. Planning and Preparation
+2. Critique of Collections
+3. Data Collection
+4. Data Processing
+5. Review, Preservation, and Publication
+
+::: {.notes}
+- **Phase 1:** Planning and Preparation.
+   Establishing objectives, resources, and methodologies.
+- **Phase 2:** Critique of Collections.
+   Evaluating the quality and relevance of newspaper archives.
+- **Phase 3:** Data Collection.
+   Gathering digitized newspaper pages from various sources.
+- **Phase 4:** Data Processing.
+   Cleaning, OCR, and metadata extraction.
+- **Phase 5:** Review, Preservation, and Publication.
+   Ensuring data accuracy, long-term preservation, and sharing findings.
+:::
 
 ---
 
-## HemDig(pt) Framework Phases
-
-- **Five Phases of the HemDig(pt) Framework:**
-  1. **Planning and Preparation:** Establishing objectives, resources, and methodologies.
-  2. **Critique of Collections:** Evaluating the quality and relevance of newspaper archives.
-  3. **Data Collection:** Gathering digitized newspaper pages from various sources.
-  4. **Data Processing:** Cleaning, OCR (Optical Character Recognition), and metadata extraction.
-  5. **Review, Preservation, and Publication:** Ensuring data accuracy, long-term preservation, and sharing findings.
-
----
-
-![Framework Diagram](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/full-diagram.png?raw=true)
+![Diagram of HemDig(pt) Framework Phases](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/full-diagram.png?raw=true)
 
 ---
 

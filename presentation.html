@@ -12,7 +12,7 @@
 
   <meta name="author" content="Eric Brasil">
   <meta name="dcterms.date" content="2024-06-03">
-  <title>HemDig(pt)</title>
+  <title>HEMDIG(pt)</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -329,7 +329,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">HemDig(pt)</h1>
+  <h1 class="title"><img data-src="logo.png" alt="HEMDIG(pt)"></h1>
   <p class="subtitle">A Framework for Collecting, Organizing, and Processing Digitized Newspaper Pages in Portuguese</p>
 
 <div class="quarto-title-authors">
@@ -342,21 +342,37 @@ Eric Brasil
 
   <p class="date">2024-06-03</p>
 </section>
-<section id="introduction" class="slide level2">
+<section id="introduction" class="slide level2 center">
 <h2>Introduction</h2>
 <ul>
-<li><strong>Title:</strong> HemDig(pt): Methods, tools and Portuguese Newspaper Digital libraries.</li>
-<li><strong>Objective:</strong> To present a framework for the collection, organization, and processing of digitized newspaper pages in Portuguese.</li>
-<li><strong>Research Importance:</strong> Digitized newspapers are valuable historical sources that need efficient handling for research purposes.</li>
+<li class="fragment"><strong>Objective:</strong> To present a framework for the collection, organization, and processing of digitized newspaper pages in Portuguese.</li>
+<li class="fragment"><strong>Research Importance:</strong> Digitized newspapers are valuable historical sources that need efficient handling for research purposes.</li>
 </ul>
+<aside class="notes">
+<ul>
+<li><strong>Objective:</strong> Present the HemDig(pt) framework for handling digitized newspapers.</li>
+<li><strong>Research Importance:</strong> Historical newspapers are rich sources of information, but handling them efficiently is a challenge.</li>
+<li><strong>Audience:</strong> Researchers, historians, archivists, and anyone interested in historical newspapers. Special focus on Portuguese-language newspapers.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="motivation" class="slide level2">
+<section id="motivation" class="slide level2 center">
 <h2>Motivation</h2>
 <ul>
-<li><strong>Historical Newspapers</strong></li>
-<li><strong>Challenges</strong></li>
-<li><strong>Current Gap</strong></li>
-<li><strong>Objective</strong></li>
+<li class="fragment">Historical Newspapers</li>
+<li class="fragment">Challenges</li>
+<li class="fragment">Current Gap</li>
+<li class="fragment">Objective</li>
 </ul>
 <aside class="notes">
 <ul>
@@ -377,48 +393,84 @@ Eric Brasil
           display:block!important;
       }</style></aside>
 </section>
-<section id="research-background-history-versioning-and-repository" class="slide level2">
+<section id="research-background-history-versioning-and-repository" class="slide level2 center">
 <h2>Research Background: History, Versioning, and Repository</h2>
-<h3 id="history"><strong>History:</strong></h3>
-<h3 id="versioning"><strong>Versioning:</strong></h3>
-<h3 id="repository"><strong>Repository:</strong></h3>
-<h3 id="license-creative-commons-attribution-4.0-international-cc-by-nc-sa-4.0."><strong>License:</strong> Creative Commons Attribution 4.0 International (CC BY-NC-SA 4.0).</h3>
-</section>
-<section id="hemdigpt-framework-phases" class="slide level2">
-<h2>HemDig(pt) Framework Phases</h2>
 <ul>
-<li><strong>Five Phases of the HemDig(pt) Framework:</strong>
-<ol type="1">
-<li><strong>Planning and Preparation:</strong> Establishing objectives, resources, and methodologies.</li>
-<li><strong>Critique of Collections:</strong> Evaluating the quality and relevance of newspaper archives.</li>
-<li><strong>Data Collection:</strong> Gathering digitized newspaper pages from various sources.</li>
-<li><strong>Data Processing:</strong> Cleaning, OCR (Optical Character Recognition), and metadata extraction.</li>
-<li><strong>Review, Preservation, and Publication:</strong> Ensuring data accuracy, long-term preservation, and sharing findings.</li>
-</ol></li>
+<li class="fragment">History</li>
+<li class="fragment">Versioning</li>
+<li class="fragment">Repository</li>
+<li class="fragment">License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br">CC BY-NC-SA 4.0</a>.</li>
 </ul>
+<aside class="notes">
+<ul>
+<li><strong>History:</strong> The HemDig(pt) framework was developed to address the challenges of handling digitized newspapers.</li>
+<li><strong>Versioning:</strong> The framework is continuously updated to incorporate new tools and methodologies. I use Git for version control.</li>
+<li><strong>Repository:</strong> The framework is hosted on GitHub and published as a JupyterBook.</li>
+<li><strong>License:</strong> The framework is available under a Creative Commons license for non-commercial use.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="hemdigpt-framework-phases" class="slide level2 center">
+<h2>HemDig(pt) Framework Phases</h2>
+<ol type="1">
+<li class="fragment">Planning and Preparation</li>
+<li class="fragment">Critique of Collections</li>
+<li class="fragment">Data Collection</li>
+<li class="fragment">Data Processing</li>
+<li class="fragment">Review, Preservation, and Publication</li>
+</ol>
+<aside class="notes">
+<ul>
+<li><strong>Phase 1:</strong> Planning and Preparation. Establishing objectives, resources, and methodologies.</li>
+<li><strong>Phase 2:</strong> Critique of Collections. Evaluating the quality and relevance of newspaper archives.</li>
+<li><strong>Phase 3:</strong> Data Collection. Gathering digitized newspaper pages from various sources.</li>
+<li><strong>Phase 4:</strong> Data Processing. Cleaning, OCR, and metadata extraction.</li>
+<li><strong>Phase 5:</strong> Review, Preservation, and Publication. Ensuring data accuracy, long-term preservation, and sharing findings.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section class="slide level2">
 
 
-<img data-src="https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/full-diagram.png?raw=true" class="r-stretch quarto-figure-center"><p class="caption">Framework Diagram</p></section>
+<img data-src="https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/full-diagram.png?raw=true" class="r-stretch quarto-figure-center"><p class="caption">Diagram of HemDig(pt) Framework Phases</p></section>
 <section id="phase-1-planning-and-preparation" class="slide level2">
 <h2>Phase 1: Planning and Preparation</h2>
 <p><strong>Summary:</strong> The first phase consists of methodological and technical planning and preparation. This phase introduces a set of tools and strategies to develop basic knowledge and resources, ensuring subsequent phases are executed more efficiently and accurately.</p>
 <ol type="1">
-<li><strong>Literature Review:</strong>
+<li class="fragment"><strong>Literature Review:</strong>
 <ul>
-<li>Initial literature review.</li>
-<li>Tools: Zotero, Scopus database search, and a public reference library.</li>
+<li class="fragment">Initial literature review.</li>
+<li class="fragment">Tools: Zotero, Scopus database search, and a public reference library.</li>
 </ul></li>
-<li><strong>Basic Technical Preparation:</strong>
+<li class="fragment"><strong>Basic Technical Preparation:</strong>
 <ul>
-<li>Introduction to relevant lessons from Programming Historian.</li>
-<li>Topics: Basic computational knowledge, data management, writing, and publishing.</li>
+<li class="fragment">Introduction to relevant lessons from Programming Historian.</li>
+<li class="fragment">Topics: Basic computational knowledge, data management, writing, and publishing.</li>
 </ul></li>
-<li><strong>Research Planning:</strong>
+<li class="fragment"><strong>Research Planning:</strong>
 <ul>
-<li>Suggestions for overall research planning.</li>
-<li>Strategies: Documentation, data organization, and usage licenses.</li>
+<li class="fragment">Suggestions for overall research planning.</li>
+<li class="fragment">Strategies: Documentation, data organization, and usage licenses.</li>
 </ul></li>
 </ol>
 
@@ -428,20 +480,20 @@ Eric Brasil
 <p><strong>Summary:</strong> The second phase involves the critical evaluation of the collections and graphical interfaces of the selected repositories. This task is crucial for understanding the biases, limitations, and possibilities of each collection, and for developing consistent methodological strategies and theoretical reflections aligned with the technical, political, and theoretical aspects of each repository.</p>
 <p><strong>Organization:</strong></p>
 <ol type="1">
-<li><strong>Case Studies:</strong>
+<li class="fragment"><strong>Case Studies:</strong>
 <ul>
-<li><strong>Repositories:</strong> Brazilian Digital Newspaper Library, National Digital Library of Portugal, and Municipal Newspaper Library of Lisbon.</li>
-<li><strong>Chapter 4:</strong> In-depth evaluation of the data from these repositories.</li>
+<li class="fragment"><strong>Repositories:</strong> Brazilian Digital Newspaper Library, National Digital Library of Portugal, and Municipal Newspaper Library of Lisbon.</li>
+<li class="fragment"><strong>Chapter 4:</strong> In-depth evaluation of the data from these repositories.</li>
 </ul></li>
-<li><strong>Analysis of Graphical Interfaces:</strong>
+<li class="fragment"><strong>Analysis of Graphical Interfaces:</strong>
 <ul>
-<li><strong>Chapter 5:</strong> Evaluation of the graphical interfaces of the selected repositories.</li>
-<li><strong>Method:</strong> Utilizes the method developed by the Impresso project team for graphical interface evaluation.</li>
+<li class="fragment"><strong>Chapter 5:</strong> Evaluation of the graphical interfaces of the selected repositories.</li>
+<li class="fragment"><strong>Method:</strong> Utilizes the method developed by the Impresso project team for graphical interface evaluation.</li>
 </ul></li>
-<li><strong>Comparative Effort:</strong>
+<li class="fragment"><strong>Comparative Effort:</strong>
 <ul>
-<li><strong>Chapter 6:</strong> Elements to support the comparison of collections and interfaces.</li>
-<li>Presents data and a series of visualizations and general comparisons.</li>
+<li class="fragment"><strong>Chapter 6:</strong> Elements to support the comparison of collections and interfaces.</li>
+<li class="fragment">Presents data and a series of visualizations and general comparisons.</li>
 </ul></li>
 </ol>
 <p><strong>Note:</strong> - This chapter provides data and visualizations for general comparison. - In-depth analyses are beyond the scope of this research and will be used for future articles and publications. - Data is available under the CC-BY-SA 4.0 license for use by other researchers.</p>
@@ -452,18 +504,18 @@ Eric Brasil
 <p><strong>Summary:</strong> In this phase, we outline strategies for the collection and organization of data and metadata from the studied collections.</p>
 <p><strong>Organization:</strong></p>
 <ol type="1">
-<li><strong>Reports and Documentation of Searches:</strong>
+<li class="fragment"><strong>Reports and Documentation of Searches:</strong>
 <ul>
-<li><strong>Chapter 7:</strong> Brief justification for the importance of consistent registration and methodological documentation strategies.</li>
-<li><strong>Section 7.1:</strong> Introduction and explanation of a methodological registration tool developed to assist research in digital repositories.</li>
+<li class="fragment"><strong>Chapter 7:</strong> Brief justification for the importance of consistent registration and methodological documentation strategies.</li>
+<li class="fragment"><strong>Section 7.1:</strong> Introduction and explanation of a methodological registration tool developed to assist research in digital repositories.</li>
 </ul></li>
-<li><strong>Data Scrapers:</strong>
+<li class="fragment"><strong>Data Scrapers:</strong>
 <ul>
-<li><strong>Chapter 8:</strong> Presentation of the strategies and tools used for metadata and data collection in the three repositories utilized.</li>
+<li class="fragment"><strong>Chapter 8:</strong> Presentation of the strategies and tools used for metadata and data collection in the three repositories utilized.</li>
 </ul></li>
-<li><strong>Organization of Datasets:</strong>
+<li class="fragment"><strong>Organization of Datasets:</strong>
 <ul>
-<li><strong>Chapter 9:</strong> Presentation of possibilities for the general organization of the collected data.</li>
+<li class="fragment"><strong>Chapter 9:</strong> Presentation of possibilities for the general organization of the collected data.</li>
 </ul></li>
 </ol>
 
@@ -473,24 +525,24 @@ Eric Brasil
 <p><strong>Summary:</strong> This phase organizes tutorials, documentation, and tools for executing OCR (Optical Character Recognition) and OLR (Optical Layout Recognition) on digitized Portuguese-language newspapers.</p>
 <p><strong>Organization:</strong></p>
 <ol type="1">
-<li><strong>Testing and Evaluation:</strong>
+<li class="fragment"><strong>Testing and Evaluation:</strong>
 <ul>
-<li>Conducted a series of tests with different tools, ranging from CLI (Command Line Interface) to GUI (Graphical User Interface), and with varying levels of complexity.</li>
-<li>Evaluated open-source and free tools, and listed proprietary options useful for newspaper OCR.</li>
+<li class="fragment">Conducted a series of tests with different tools, ranging from CLI (Command Line Interface) to GUI (Graphical User Interface), and with varying levels of complexity.</li>
+<li class="fragment">Evaluated open-source and free tools, and listed proprietary options useful for newspaper OCR.</li>
 </ul></li>
-<li><strong>CLI Tools:</strong>
+<li class="fragment"><strong>CLI Tools:</strong>
 <ul>
-<li><strong>Command Line Interface Tools:</strong> Tesseract, OCR-D, and Kraken.</li>
-<li>Presented tutorials, documentation, tests, and results obtained for each tool.</li>
+<li class="fragment"><strong>Command Line Interface Tools:</strong> Tesseract, OCR-D, and Kraken.</li>
+<li class="fragment">Presented tutorials, documentation, tests, and results obtained for each tool.</li>
 </ul></li>
-<li><strong>GUI Tools:</strong>
+<li class="fragment"><strong>GUI Tools:</strong>
 <ul>
-<li><strong>Graphical User Interface Tools:</strong> gImageReader.</li>
-<li>Presented tutorials, documentation, tests, and results obtained.</li>
+<li class="fragment"><strong>Graphical User Interface Tools:</strong> gImageReader.</li>
+<li class="fragment">Presented tutorials, documentation, tests, and results obtained.</li>
 </ul></li>
-<li><strong>Programming Historian Lessons:</strong>
+<li class="fragment"><strong>Programming Historian Lessons:</strong>
 <ul>
-<li>Listed relevant lessons for those seeking to perform OCR on newspapers.</li>
+<li class="fragment">Listed relevant lessons for those seeking to perform OCR on newspapers.</li>
 </ul></li>
 </ol>
 <p><strong>Objective:</strong> - More than providing step-by-step usage guides, the goal is to present key features, advantages, and disadvantages of each tool. - Encourage critical reflection on the use of these tools. - Support researchers with knowledge and materials to consciously and critically develop their workflows.</p>
@@ -501,34 +553,34 @@ Eric Brasil
 <p><strong>Summary:</strong> In this final phase of the framework, the objective is to conduct a comprehensive review of the documentation, metadata, and data structure, as well as to publish the research data.</p>
 <p><strong>Key Points:</strong></p>
 <ul>
-<li><strong>Review and Consolidation:</strong>
+<li class="fragment"><strong>Review and Consolidation:</strong>
 <ul>
-<li>Conduct a thorough review of the documentation and metadata.</li>
-<li>Consolidate the data structure.</li>
+<li class="fragment">Conduct a thorough review of the documentation and metadata.</li>
+<li class="fragment">Consolidate the data structure.</li>
 </ul></li>
-<li><strong>Continuous Process:</strong>
+<li class="fragment"><strong>Continuous Process:</strong>
 <ul>
-<li>Emphasize that this phase is a continuation and consolidation of a process that began in Phase 1.</li>
-<li>Documentation and methodological recording should be carried out concurrently with data selection, collection, processing, and analysis.</li>
-<li>This should be done transparently and in a standardized manner, adhering to clearly defined and publicized criteria.</li>
+<li class="fragment">Emphasize that this phase is a continuation and consolidation of a process that began in Phase 1.</li>
+<li class="fragment">Documentation and methodological recording should be carried out concurrently with data selection, collection, processing, and analysis.</li>
+<li class="fragment">This should be done transparently and in a standardized manner, adhering to clearly defined and publicized criteria.</li>
 </ul></li>
-<li><strong>Reference to Phase 1:</strong>
+<li class="fragment"><strong>Reference to Phase 1:</strong>
 <ul>
-<li>Recommending revisiting Phase 1 for key aspects of documentation and methodological recording.</li>
+<li class="fragment">Recommending revisiting Phase 1 for key aspects of documentation and methodological recording.</li>
 </ul></li>
-<li><strong>Chapters Outline:</strong>
+<li class="fragment"><strong>Chapters Outline:</strong>
 <ul>
-<li><strong>Consolidation of Documentation:</strong>
+<li class="fragment"><strong>Consolidation of Documentation:</strong>
 <ul>
-<li>Ensure all documentation is comprehensive and well-organized.</li>
+<li class="fragment">Ensure all documentation is comprehensive and well-organized.</li>
 </ul></li>
-<li><strong>Review of Data and Metadata:</strong>
+<li class="fragment"><strong>Review of Data and Metadata:</strong>
 <ul>
-<li>Conduct a detailed review to ensure accuracy and completeness.</li>
+<li class="fragment">Conduct a detailed review to ensure accuracy and completeness.</li>
 </ul></li>
-<li><strong>Data Publication:</strong>
+<li class="fragment"><strong>Data Publication:</strong>
 <ul>
-<li>Publish the research data, making it accessible for further research and analysis.</li>
+<li class="fragment">Publish the research data, making it accessible for further research and analysis.</li>
 </ul></li>
 </ul></li>
 </ul>
@@ -538,8 +590,8 @@ Eric Brasil
 <h2>Detailed Examples</h2>
 <p>In this presentation, we will delve into two detailed examples to illustrate the application of the HemDig(pt) framework:</p>
 <ol type="1">
-<li><strong>Data Analysis of Newspapers from the National Digital Library of Portugal</strong></li>
-<li><strong>Impresso Review Method for Interface Analysis</strong></li>
+<li class="fragment"><strong>Data Analysis of Newspapers from the National Digital Library of Portugal</strong></li>
+<li class="fragment"><strong>Impresso Review Method for Interface Analysis</strong></li>
 </ol>
 <p>These examples will highlight the practical implementation and the insights gained from using the framework.</p>
 </section>
@@ -547,21 +599,21 @@ Eric Brasil
 <h2>Example 1: Data Analysis of Public Domain Newspapers from the National Digital Library of Portugal</h2>
 <p><strong>Overview:</strong></p>
 <ul>
-<li><strong>Objective:</strong> Evaluate the quality and relevance of newspaper data from the National Digital Library of Portugal, focusing on public domain newspapers.</li>
-<li><strong>Data Collection:</strong> Utilized scrapers to gather metadata and text data.</li>
+<li class="fragment"><strong>Objective:</strong> Evaluate the quality and relevance of newspaper data from the National Digital Library of Portugal, focusing on public domain newspapers.</li>
+<li class="fragment"><strong>Data Collection:</strong> Utilized scrapers to gather metadata and text data.</li>
 </ul>
 <p><strong>Analysis of Public Domain Newspapers:</strong></p>
 <ul>
-<li><strong>Languages:</strong>
+<li class="fragment"><strong>Languages:</strong>
 <ul>
-<li>Predominantly in Portuguese.</li>
-<li>Some newspapers in other languages like French and English.</li>
+<li class="fragment">Predominantly in Portuguese.</li>
+<li class="fragment">Some newspapers in other languages like French and English.</li>
 </ul></li>
-<li><strong>Publication Dates:</strong>
+<li class="fragment"><strong>Publication Dates:</strong>
 <ul>
-<li>Ranges from the 19th to early 20th century.</li>
-<li>Earliest newspapers date back to the early 1800s.</li>
-<li>Significant coverage during key historical periods, such as the Portuguese First Republic and World War I.</li>
+<li class="fragment">Ranges from the 19th to early 20th century.</li>
+<li class="fragment">Earliest newspapers date back to the early 1800s.</li>
+<li class="fragment">Significant coverage during key historical periods, such as the Portuguese First Republic and World War I.</li>
 </ul></li>
 </ul>
 </section>
@@ -569,102 +621,102 @@ Eric Brasil
 <h2>Example 2: Impresso Review Method for Interface Analysis</h2>
 <p><strong>Overview:</strong></p>
 <ul>
-<li><strong>Objective:</strong> Assess the usability and effectiveness of graphical interfaces of digital newspaper repositories using the Impresso project’s evaluation method.</li>
+<li class="fragment"><strong>Objective:</strong> Assess the usability and effectiveness of graphical interfaces of digital newspaper repositories using the Impresso project’s evaluation method.</li>
 </ul>
 <p><strong>Graphical Interface Analysis:</strong></p>
 <ul>
-<li><strong>Criteria Evaluated:</strong>
+<li class="fragment"><strong>Criteria Evaluated:</strong>
 <ul>
-<li>Browsing</li>
-<li>Search</li>
-<li>Result Sorting</li>
-<li>Result Filtering</li>
-<li>Result Display</li>
-<li>Viewer</li>
-<li>User Interaction</li>
-<li>Enrichment</li>
-<li>Info on Digitization</li>
-<li>Connectivity</li>
-<li>APIs</li>
-<li>Newspaper Metadata</li>
+<li class="fragment">Browsing</li>
+<li class="fragment">Search</li>
+<li class="fragment">Result Sorting</li>
+<li class="fragment">Result Filtering</li>
+<li class="fragment">Result Display</li>
+<li class="fragment">Viewer</li>
+<li class="fragment">User Interaction</li>
+<li class="fragment">Enrichment</li>
+<li class="fragment">Info on Digitization</li>
+<li class="fragment">Connectivity</li>
+<li class="fragment">APIs</li>
+<li class="fragment">Newspaper Metadata</li>
 </ul></li>
 </ul>
 <p><strong>Key Insights from the Graph:</strong></p>
 <ul>
-<li><strong>Strengths:</strong>
+<li class="fragment"><strong>Strengths:</strong>
 <ul>
-<li><strong>Browsing and Search:</strong> High scores indicate effective navigation and search functionalities.</li>
-<li><strong>Newspaper Metadata:</strong> Well-structured and accessible metadata.</li>
+<li class="fragment"><strong>Browsing and Search:</strong> High scores indicate effective navigation and search functionalities.</li>
+<li class="fragment"><strong>Newspaper Metadata:</strong> Well-structured and accessible metadata.</li>
 </ul></li>
-<li><strong>Weaknesses:</strong>
+<li class="fragment"><strong>Weaknesses:</strong>
 <ul>
-<li><strong>Result Display and Filtering:</strong> Lower scores suggest the need for improvement in how search results are displayed and filtered.</li>
-<li><strong>Viewer and User Interaction:</strong> Indicates areas for enhancing the user interface for better interaction and viewing experience.</li>
+<li class="fragment"><strong>Result Display and Filtering:</strong> Lower scores suggest the need for improvement in how search results are displayed and filtered.</li>
+<li class="fragment"><strong>Viewer and User Interaction:</strong> Indicates areas for enhancing the user interface for better interaction and viewing experience.</li>
 </ul></li>
 </ul>
 <p><strong>Comparison with Original Research (Ehrmann, Bunout, and Düring [2019]):</strong></p>
 <ul>
-<li><strong>Similarities:</strong>
+<li class="fragment"><strong>Similarities:</strong>
 <ul>
-<li>Both studies highlight strong performance in browsing and search capabilities.</li>
-<li>Metadata organization is a common strength.</li>
+<li class="fragment">Both studies highlight strong performance in browsing and search capabilities.</li>
+<li class="fragment">Metadata organization is a common strength.</li>
 </ul></li>
-<li><strong>Differences:</strong>
+<li class="fragment"><strong>Differences:</strong>
 <ul>
-<li>The current study indicates weaker performance in result display and filtering compared to the original research.</li>
-<li>Viewer and user interaction scores are notably lower in the current study, suggesting areas for improvement.</li>
+<li class="fragment">The current study indicates weaker performance in result display and filtering compared to the original research.</li>
+<li class="fragment">Viewer and user interaction scores are notably lower in the current study, suggesting areas for improvement.</li>
 </ul></li>
 </ul>
 <p><strong>Visual Representations:</strong></p>
 <ul>
-<li><p><strong>Current Study:</strong> <img data-src="https://ericbrasiln.github.io/hemdig-framework/_images/all-interfaces-global1.png" alt="Radial Comparison Graph"></p></li>
-<li><p><strong>Original Research:</strong> <img data-src="https://ericbrasiln.github.io/hemdig-framework/_images/all-interfaces-global-impresso.png" alt="Original Research Graph"></p></li>
+<li class="fragment"><p><strong>Current Study:</strong> <img data-src="https://ericbrasiln.github.io/hemdig-framework/_images/all-interfaces-global1.png" alt="Radial Comparison Graph"></p></li>
+<li class="fragment"><p><strong>Original Research:</strong> <img data-src="https://ericbrasiln.github.io/hemdig-framework/_images/all-interfaces-global-impresso.png" alt="Original Research Graph"></p></li>
 </ul>
 </section>
 <section id="conclusion" class="slide level2">
 <h2>Conclusion</h2>
 <ul>
-<li><strong>Deep Dive into Digitized Newspaper Data:</strong>
+<li class="fragment"><strong>Deep Dive into Digitized Newspaper Data:</strong>
 <ul>
-<li>Analyzed key collections from the National Libraries of Brazil and Portugal.</li>
-<li>Generated visualizations and organized data on digitized newspapers.</li>
+<li class="fragment">Analyzed key collections from the National Libraries of Brazil and Portugal.</li>
+<li class="fragment">Generated visualizations and organized data on digitized newspapers.</li>
 </ul></li>
-<li><strong>Impactful Findings:</strong>
+<li class="fragment"><strong>Impactful Findings:</strong>
 <ul>
-<li>Enabled numerous potential future research and publications.</li>
-<li>Provided a comprehensive analysis of graphical interface characteristics.</li>
-<li>Offered robust insights on the epistemological and methodological impacts of these technical choices on research.</li>
+<li class="fragment">Enabled numerous potential future research and publications.</li>
+<li class="fragment">Provided a comprehensive analysis of graphical interface characteristics.</li>
+<li class="fragment">Offered robust insights on the epistemological and methodological impacts of these technical choices on research.</li>
 </ul></li>
-<li><strong>Open and Accessible Data:</strong>
+<li class="fragment"><strong>Open and Accessible Data:</strong>
 <ul>
-<li>Organized, documented, and made available in an open, multiplatform format.</li>
-<li>Data can be accessed, reused, expanded, and critiqued.</li>
+<li class="fragment">Organized, documented, and made available in an open, multiplatform format.</li>
+<li class="fragment">Data can be accessed, reused, expanded, and critiqued.</li>
 </ul></li>
-<li><strong>OCR Tools and Methodologies:</strong>
+<li class="fragment"><strong>OCR Tools and Methodologies:</strong>
 <ul>
-<li>Conducted tests and studies on OCR tools, offering implementation guidance.</li>
-<li>Created tutorials and supported materials for tools like gImageReader, OCR-D, Kraken, Zotero, and Tropy.</li>
+<li class="fragment">Conducted tests and studies on OCR tools, offering implementation guidance.</li>
+<li class="fragment">Created tutorials and supported materials for tools like gImageReader, OCR-D, Kraken, Zotero, and Tropy.</li>
 </ul></li>
-<li><strong>Scripts and Methodological Tools:</strong>
+<li class="fragment"><strong>Scripts and Methodological Tools:</strong>
 <ul>
-<li>Developed scripts for data extraction from graphical interfaces, enabling new visualizations and analyses.</li>
-<li>Created a methodological support tool for generating research reports.</li>
+<li class="fragment">Developed scripts for data extraction from graphical interfaces, enabling new visualizations and analyses.</li>
+<li class="fragment">Created a methodological support tool for generating research reports.</li>
 </ul></li>
-<li><strong>Educational Framework:</strong>
+<li class="fragment"><strong>Educational Framework:</strong>
 <ul>
-<li>All data, results, recommendations, and reflections were systematically organized into a framework.</li>
-<li>Published online as a JupyterBook under a Creative Commons license.</li>
+<li class="fragment">All data, results, recommendations, and reflections were systematically organized into a framework.</li>
+<li class="fragment">Published online as a JupyterBook under a Creative Commons license.</li>
 </ul></li>
-<li><strong>Future Potential:</strong>
+<li class="fragment"><strong>Future Potential:</strong>
 <ul>
-<li>Significant potential for advancing epistemological reflections in the field of history.</li>
-<li>Emphasizes the growing relationship between humanities and technology.</li>
+<li class="fragment">Significant potential for advancing epistemological reflections in the field of history.</li>
+<li class="fragment">Emphasizes the growing relationship between humanities and technology.</li>
 </ul></li>
 </ul>
 <div class="quarto-auto-generated-content">
 <p><img src="logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p><a href="https://ericbrasiln.github.io/hemdig-framework/" class="uri">https://ericbrasiln.github.io/hemdig-framework/</a></p>
+<p><a href="https://ericbrasiln.github.io/">Eric Brasil</a> | <a href="https://ericbrasiln.github.io/hemdig-framework/">HEMDIG(pt) Framework</a> | <a href="https://ericbrasiln.github.io/contact/">Get in touch!</a></p>
 </div>
 </div>
 </section>
