@@ -1,7 +1,7 @@
 ---
 title: "HemDig(pt): A Framework for Collecting, Organizing, and Processing Digitized Newspaper Pages in Portuguese"
 author: Eric Brasil
-date: \today
+date: June 3, 2024
 lang: en
 geometry: 
     - top=2cm
@@ -199,7 +199,7 @@ geometry:
 
 ---
 
-## Detailed Examples
+## Detailed Examples {.center}
 
 In this presentation, we will delve into two detailed examples to illustrate the application of the HemDig(pt) framework:
 
@@ -210,12 +210,14 @@ These examples will highlight the practical implementation and the insights gain
 
 ---
 
-## Example 1: Data Analysis of Public Domain Newspapers from the National Digital Library of Portugal
+## Example 1: Data Analysis of Public Domain Newspapers from the National Digital Library of Portugal {.center}
 
 **Overview:**
 
 - **Objective:** Evaluate the quality and relevance of newspaper data from the National Digital Library of Portugal, focusing on public domain newspapers.
 - **Data Collection:** Utilized scrapers to gather metadata and text data.
+
+---
 
 **Analysis of Public Domain Newspapers:**
 
@@ -230,11 +232,13 @@ These examples will highlight the practical implementation and the insights gain
 
 ---
 
-## Example 2: Impresso Review Method for Interface Analysis
+## Example 2: Impresso Review Method for Interface Analysis {.center}
 
 **Overview:**
 
 - **Objective:** Assess the usability and effectiveness of graphical interfaces of digital newspaper repositories using the Impresso project’s evaluation method.
+
+---
 
 **Graphical Interface Analysis:**
 
@@ -252,6 +256,8 @@ These examples will highlight the practical implementation and the insights gain
   - APIs
   - Newspaper Metadata
 
+---
+
 **Key Insights from the Graph:**
 
 - **Strengths:**
@@ -261,6 +267,8 @@ These examples will highlight the practical implementation and the insights gain
 - **Weaknesses:**
   - **Result Display and Filtering:** Lower scores suggest the need for improvement in how search results are displayed and filtered.
   - **Viewer and User Interaction:** Indicates areas for enhancing the user interface for better interaction and viewing experience.
+
+---
 
 **Comparison with Original Research (Ehrmann, Bunout, and Düring [2019]):**
 
@@ -272,6 +280,8 @@ These examples will highlight the practical implementation and the insights gain
   - The current study indicates weaker performance in result display and filtering compared to the original research.
   - Viewer and user interaction scores are notably lower in the current study, suggesting areas for improvement.
 
+---
+
 **Visual Representations:**
 
 - **Current Study:**
@@ -282,34 +292,45 @@ These examples will highlight the practical implementation and the insights gain
 
 ---
 
-## Conclusion
+## Conclusion {.center}
 
 - **Deep Dive into Digitized Newspaper Data:**
   - Analyzed key collections from the National Libraries of Brazil and Portugal.
   - Generated visualizations and organized data on digitized newspapers.
+
+---
 
 - **Impactful Findings:**
   - Enabled numerous potential future research and publications.
   - Provided a comprehensive analysis of graphical interface characteristics.
   - Offered robust insights on the epistemological and methodological impacts of these technical choices on research.
 
+---
+
 - **Open and Accessible Data:**
   - Organized, documented, and made available in an open, multiplatform format.
   - Data can be accessed, reused, expanded, and critiqued.
+
+---
 
 - **OCR Tools and Methodologies:**
   - Conducted tests and studies on OCR tools, offering implementation guidance.
   - Created tutorials and supported materials for tools like gImageReader, OCR-D, Kraken, Zotero, and Tropy.
 
+---
+
 - **Scripts and Methodological Tools:**
   - Developed scripts for data extraction from graphical interfaces, enabling new visualizations and analyses.
   - Created a methodological support tool for generating research reports.
+
+---
 
 - **Educational Framework:**
   - All data, results, recommendations, and reflections were systematically organized into a framework.
   - Published online as a JupyterBook under a Creative Commons license.
 
+---
+
 - **Future Potential:**
   - Significant potential for advancing epistemological reflections in the field of history.
   - Emphasizes the growing relationship between humanities and technology.
-
