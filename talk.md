@@ -1,39 +1,10 @@
----
-title: "![HEMDIG(pt)](logo.png)"
-subtitle: ""
-author: Eric Brasil
-institute: "Institute of Humanities and Languages<br>University for the International Integration of Afro-Brazilian Lusophony (UNILAB)"
-date: "3 June 2024"
-format:
-  revealjs: 
-    theme: white
-    slide-number: true
-    incremental: true 
-    chalkboard: 
-      buttons: true
-    preview-links: auto
-    logo: logo.png
-    #css: styles.css
-    footer: "<a href=https://ericbrasiln.github.io/>Eric Brasil</a> | <a href=https://ericbrasiln.github.io/hemdig-framework/>HEMDIG(pt) Framework</a>"
----
-## HEMDIG(pt) {.center}
+## HEMDIG(pt) 
 
-#### A Framework for Collecting, Organizing, and Processing Digitized Newspaper Pages in Portuguese 
-
-::: {.notes}
 First, I would like to thank Joana and Daniel for inviting me to participate in this event. It is a pleasure to be here and to present this research developed last year at the DH Lab of Universidade NOVA de Lisboa. HemDig(pt) is a framework I developed to handle digitized newspapers, and the idea here is to provide a summary of what was done, the challenges faced, and the results obtained.
-:::
 
----
 
-## Motivation {.center}
+## Motivation 
 
-- Historical Newspapers
-- Challenges
-- Current Gap
-- Objective
-
-::: {.notes}
 - **Historical Newspapers:** In recent years, I have observed the growing use of these sources in research in Brazil, especially with the popularization of the Brazilian Digital Newspaper Library, an initiative by the National Library of Brazil. Many journal articles, theses, and dissertations have utilized these sources to investigate various aspects of Brazilian history.
 
 But at the same time, there is a methodological silence about their use: how the research is conducted, what methods are used for processing these digital objects, and moreover, how such issues epistemologically impact the research carried out. I have been researching and publishing on these issues, and HemDig(pt) is an attempt to systematize some of these reflections and collaborate with researchers who deal with digitized newspapers.
@@ -42,60 +13,23 @@ But at the same time, there is a methodological silence about their use: how the
 - **Current Gap:** Few debates in Portuguese, few models trained for OCR in Portuguese. Do repositories in other languages face the same issues?
 
 - **Objective:** Develop a comprehensive framework for efficient data collection and processing of digitized newspapers in Portuguese.
-:::
 
----
+## Research Background: History, Versioning, and Repository 
 
-## Research Background: History, Versioning, and Repository {.center}
-
-- History
-- Versioning
-- Repository
-- License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br).
-
-::: {.notes}
 - **History:** The HemDig(pt) framework was developed to address the challenges of handling digitized newspapers. It is based on my research and publications on the topic.
 
 - **Versioning and repository:** The entire research process was versioned using Git and hosted on GitHub. The framework is published as a JupyterBook, and the link is available in the footer of the presentation.
+
 - **License:** The framework is available under a Creative Commons license for non-commercial use.
-:::
----
 
-## HemDig(pt) Framework Phases {.center}
+## HemDig(pt) Framework Phases 
 
-1. Planning and Preparation
-2. Critique of Collections
-3. Data Collection
-4. Data Processing
-5. Review, Preservation, and Publication
-
-::: {.notes}
 I will present each of the 5 phases, highlighting the objectives and characteristics of each. The goal is to provide an overview of the framework and point out some of the results obtained in each phase.
-:::
 
----
+## Phase 1: Planning and Preparation 
 
-![Diagram of HemDig(pt) Framework Phases](https://github.com/ericbrasiln/hemdig-framework/blob/main/book/assets/images/full-diagram.png?raw=true)
-
----
-
-## Phase 1: Planning and Preparation {.center}
-
-![Phase 1 Diagram](https://ericbrasiln.github.io/hemdig-framework/_images/1fase_mermaid-diagram-2023-08-21-171600.png)
-
-::: {.notes}
 The first phase consists of methodological and technical planning and preparation. This phase introduces a set of tools and strategies to develop basic knowledge and resources, ensuring subsequent phases are executed more efficiently and accurately.
-:::
 
----
-
-## Phase 1: Planning and Preparation {.center}
-
-1. [Literature Review](https://ericbrasiln.github.io/hemdig-framework/part1/capitulo1/cap1.html)
-2. [Basic Technical Preparation](https://ericbrasiln.github.io/hemdig-framework/part1/capitulo2/cap2.html)
-3. [Research Planning](https://ericbrasiln.github.io/hemdig-framework/part1/capitulo3/cap3.html)
-
-::: {.notes}
 - **Literature Review:** In this stage, I present Zotero as a tool for managing bibliographic references; and the conduction of a bibliographic survey on topics related to digitized newspapers in the Scopus and Web of Science databases. As a result, a collection called HEMDIG(pt) was created and added to the public reference library Digital History.
 
 - **Basic Technical Preparation:** In this chapter, we aim to present some tutorials from Programming Historian organized into the following topics: Basic Computational Knowledge, Data Management, and Writing and Publishing.
@@ -107,33 +41,11 @@ We do not seek to conduct an exhaustive survey of themes or fill gaps in trainin
 In other words, it is essential to develop a Data Management Plan (DMP), which should be created in this first phase and updated throughout its development.
 
 Here, we discuss the FAIR principles, version control systems, tools like Zotero, Tropy, and data licensing.
-:::
 
----
+## Phase 2: Critique of Collections 
 
-![HEMDIG(pt) collection in Zotero](https://ericbrasiln.github.io/hemdig-framework/_images/print_bib_zot.png)
-
-<small>Access the collection at ["História Digital" in zotero.org](https://www.zotero.org/groups/2216280/histria_digital/library)</small>
-
----
-
-## Phase 2: Critique of Collections {.center}
-
-![Phase 2 Diagram](https://ericbrasiln.github.io/hemdig-framework/_images/2fase_mermaid-diagram-2023-08-21-172523.png)
-
-::: {.notes}
 The second phase involves the critical evaluation of the collections and graphical interfaces of the selected repositories. This task is crucial for understanding the biases, limitations, and possibilities of each collection, and for developing consistent methodological strategies and theoretical reflections aligned with the technical, political, and theoretical aspects of each repository.
-:::
 
----
-
-## Phase 2: Critique of Collections {.center}
-
-1. [Evaluation of Repositories](https://ericbrasiln.github.io/hemdig-framework/part2/capitulo4/cap4.html): Brazilian Digital Newspaper Library, Newspaper collection of the National Digital Library of Portugal, and Municipal Newspaper Library of Lisbon.
-2. [Analysis of Graphical Interfaces](https://ericbrasiln.github.io/hemdig-framework/part2/capitulo5/cap5.html)
-3. [Comparative Effort](https://ericbrasiln.github.io/hemdig-framework/part2/capitulo6/cap6.html)
-
-::: {.notes}
 - **Case Studies:** Evaluation of three repositories: Brazilian Digital Newspaper Library, National Digital Library of Portugal, and Municipal Newspaper Library of Lisbon. Detailed analysis in Chapter 4.
 
 I sought to present the general data of each collection and provide visualizations of this data so that future research can be developed. The general characterization of the digitized collections from these institutions is not currently available in their own search interfaces, which directly affects the research and use of these collections. Therefore, the organized and graphical presentation of this data, as done in this chapter, is a contribution to the research and use of these collections.
@@ -152,58 +64,14 @@ I translated and adapted the questionnaire, applied it to the graphical interfac
 
 These results are presented in the next chapter.
 
-- **Comparative Effort:** Provides elements for comparing collections and interfaces, including data and visualizations. Detailed in Chapter 6.
-:::
+## Collection Characteristics 
 
----
+## Interface Characteristics 
 
-## Collection Characteristics {.center}
+## Phase 3: Data Collection 
 
-- Geographical Bias: Centralization in Rio de Janeiro and Lisbon in the HDB and BND-PT, respectively.
-- Chronological Bias: HDB and BND-PT collections are concentrated in the last decades of the 19th century and the first half of the 20th century.
-- Language: Collections are almost entirely composed of newspapers in Portuguese.
-
----
-
-![Decades of initial publication (with more than one publication in the year). Brazilian Digital Newspaper Library](https://raw.githubusercontent.com/ericbrasiln/hemdig-framework/main/repositorios/BND_BR/charts/fig5.png)
-
----
-
-## Interface Characteristics {.center}
-
-- Sources criticism: Presence of important registered and accessible metadata.
-- Content Search and Filtering: Reasonable capability for content search and result filtering.
-- Generosity and Connectivity: Very low possibility of discovering new content beyond list results, integrating research with other repositories.
-- User content management: Lack of functionalities for organizing, tagging, comparing, and sharing results.
-
-::: {.notes}
-In the high-level criteria graph proposed by the methodology used, we can observe the repetition of patterns found by Ehrmann, Bunout, and Düring [2019]:
-:::
----
-
-![High Level Criteria Graph](https://ericbrasiln.github.io/hemdig-framework/_images/3cf9e815d40c251a73aa17eb58d3a8b41b79548afa417453e525e76c3bbecca3.png)
-
-<small>See more comparisons in [Chapter 6](https://ericbrasiln.github.io/hemdig-framework/part2/capitulo6/cap6.html)</small>
-
----
-
-## Phase 3: Data Collection {.center}
-
-![Phase 3 Diagram](https://ericbrasiln.github.io/hemdig-framework/_images/3fase_mermaid-diagram-2023-08-21-173800.png)
-
-::: {.notes}
 In this phase, we outline strategies for the collection and organization of data and metadata from the studied collections.
-:::
 
----
-
-## Phase 3: Data Collection {.center}
-
-1. [Reports and Documentation of Searches](https://ericbrasiln.github.io/hemdig-framework/part3/capitulo7/sec71.html)
-2. [Data Scraper](https://ericbrasiln.github.io/hemdig-framework/part3/capitulo8/cap8.html)
-3. [Organization of Datasets](https://ericbrasiln.github.io/hemdig-framework/part3/capitulo9/cap9.html)
-
-::: {.notes}
 - **Reports and Documentation of Searches:** Importance of consistent documentation and methodological registration.
 
 To this end, I created small Python scripts to generate search reports, which function as methodological support tools. These scripts record data about the repositories, the searches conducted, the criteria used, and the results obtained. These reports are generated automatically and can be used to document and record the search process, facilitating the replication and review of the research.
@@ -217,37 +85,13 @@ To collect data from the HDB, it is recommended to use pyHDB, a tool written in 
 I also created a scraper for the Digital Library of Portugal and the Digital Newspaper Library of Lisbon: Collect data and metadata using Selenium and Beautiful Soup.
 
 - **Organization of Datasets:** Strategies for organizing collected data.
-:::
 
----
+## Phase 4: Data Processing 
 
-![pyHDB](https://raw.githubusercontent.com/ericbrasiln/pyHDB/main/img/1.png)
-
-<small>Access the tool at [https://ericbrasiln.github.io/pyHDB/](https://ericbrasiln.github.io/pyHDB/)</small>
-
----
-
-## Phase 4: Data Processing {.center}
-
-![Phase 4 Diagram](https://ericbrasiln.github.io/hemdig-framework/_images/4fase_mermaid-diagram-2023-08-21-225902.png)
-
-::: {.notes}
 This phase organizes tutorials, documentation, and tools for executing OCR (Optical Character Recognition) and OLR (Optical Layout Recognition) on digitized Portuguese-language newspapers.
 
 This phase organizes tutorials, documentation, and tools for executing OCR (Optical Character Recognition) and OLR (Optical Layout Recognition) on digitized Portuguese-language newspapers.
 
-:::
-
----
-
-## Phase 4: Data Processing {.center}
-
-1. [Definition of Strategies: Volume and Quality of Data](https://ericbrasiln.github.io/hemdig-framework/part4/capitulo10/cap10.html)
-2. [CLI Tools: Tesseract, OCR-D, Kraken](https://ericbrasiln.github.io/hemdig-framework/part4/capitulo12/cap12.html)
-3. [GUI Tools: gImageReader](https://ericbrasiln.github.io/hemdig-framework/part4/capitulo13/cap13.html)
-4. [Programming Historian Lessons](https://ericbrasiln.github.io/hemdig-framework/part4/capitulo11/cap11.html)
-
-::: {.notes}
 We conducted a series of tests with different tools, ranging from CLI (Command Line Interface) to GUI (Graphical User Interface), and with varying levels of complexity. We also listed a series of lessons from Programming Historian that are useful for those seeking to perform OCR on newspapers.
 
 This chapter is divided as follows:
@@ -261,66 +105,8 @@ For each of these topics, we present a set of tutorials, documentation, tests, a
 Our goal, more than providing a step-by-step guide for using each tool, is to present the main features, advantages, and disadvantages, and promote critical reflection on their use.
 
 Like the entire framework, we aim to provide researchers with knowledge and materials to consciously and critically develop their workflows.
-:::
 
----
+## Phase 5: Review, Preservation, and Publication 
 
-![Table comparing OCR-d results](ocr_table.png)
-
----
-
-![Screenshot of gImageReader](https://ericbrasiln.github.io/hemdig-framework/_images/gir_layout_be03_ocr-d_2023-08-10_11-13-18.png)
-
----
-
-## Phase 5: Review, Preservation, and Publication {.center}
-
-![Phase 5 Diagram](https://ericbrasiln.github.io/hemdig-framework/_images/5fase_mermaid-diagram-2023-08-21-225829.png)
-
-::: {.notes}
 In this final phase of the framework, the objective is to conduct a comprehensive review of the documentation, metadata, and data structure, as well as to publish the research data.
-:::
 
----
-
-## Phase 5: Review, Preservation, and Publication {.center}
-
-1. [Consolidation of Documentation](https://ericbrasiln.github.io/hemdig-framework/part5/capitulo14/cap14.html)
-2. [Review of Data and Metadata](https://ericbrasiln.github.io/hemdig-framework/part5/capitulo15/cap15.html)
-3. [Data Publication](https://ericbrasiln.github.io/hemdig-framework/part5/capitulo16/cap16.html)
-
-::: {.notes}
-1. Review and Consolidation
-  - Conduct a thorough review of the documentation and metadata.
-  - Consolidate the data structure for long-term preservation and accessibility.
-
-2. Continuous Process
-  - Emphasize that this phase is a continuation and consolidation of a process that began in Phase 1.
-  - Documentation and methodological recording should be carried out concurrently with data selection, collection, processing, and analysis.
-  - This should be done transparently and in a standardized manner, adhering to clearly defined and publicized criteria.
-
-3. Reference to Phase 1
-  - Recommending revisiting Phase 1 for key aspects of documentation and methodological recording.
-
-4. Data Publication
-  - Emphasize the importance of making research data accessible for further research and analysis.
-  - Highlight the benefits of open data practices and the potential for collaboration and knowledge exchange.
-:::
-
----
-
-## Conclusion {.center}
-
-- Importance of methodological reflections
-- Demand for technical training
-- Centrality of a collaborative and interdisciplinary approach
-- Debate and collaborate with archival institutions
-- Support new research using these sources
-
----
-
-## Thank you! {.center}
-
-- [HEMDIG(pt) Framework](https://ericbrasiln.github.io/hemdig-framework/)
-- [Eric Brasil](https://ericbrasiln.github.io/)
-- [Get in touch!](https://ericbrasiln.github.io/contact/)
